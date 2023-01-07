@@ -78,8 +78,11 @@
                     <a href="http://localhost:8080/user/list" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                             class="fas fa-download fa-sm text-white-50"></i> Lista użytkowników</a>
                 </div>
-                <div class="card card-body">
-                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Lista użytkowników</div>
+                <div class="card shadow mb-5" style="border-radius: 25px">
+                <div style="background: whitesmoke">
+                    <p style="color:royalblue;padding-left: 10px;padding-top: 10px"><b>Dodaj użytkownika</b></p>
+                    <hr class="sidebar-divider my-0">
+                    <div style="background: white; padding-top: 10px; padding-left: 10px; padding-bottom: 10px">
                 <form method="post">
                     <label for="username">Nazwa</label><br>
                     <input type="text" id="username" name="username" placeholder="Nazwa użytkownika"><br>
